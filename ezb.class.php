@@ -8,7 +8,7 @@
  *
  */
 
-require_once("./xml.class.php");
+require_once("xml.class.php");
 
 class ezb_regensburg
 {
