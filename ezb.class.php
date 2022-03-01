@@ -58,8 +58,7 @@ class ezb_regensburg
 
         function download_with_limit($url)
         {
-                $this->debug_on();
-
+               
                 if( $this->debug_stat() ) echo "> $url\n";
 
                 $tag = date("d");
@@ -88,8 +87,7 @@ class ezb_regensburg
                         sleep(5);
                 }
 
-                $this->debug_off();
-
+              
                 return $xfile;
         }
 
